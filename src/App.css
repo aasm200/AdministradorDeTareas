@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+  height: 100vh;
+  padding: 10px;
+  background-color: rgb(241, 241, 241);
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #d0d0d5;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* tareas */
+.tareas-lista-principal {
+ width: 600px;
+ min-height: 500px;
+ background-color: #29292c;
+ padding: 25px;
+ margin: 10px;
+ justify-content: center;
+ border-radius: 26px;
+}
